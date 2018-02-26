@@ -151,7 +151,7 @@ var Main = (function (_super) {
         line.y = 61;
         this.addChild(line);
         var colorLabel = new egret.TextField();
-        colorLabel.textColor = 0xffffff;
+        colorLabel.textColor = 0xff0000;
         colorLabel.width = stageW - 172;
         colorLabel.textAlign = "center";
         colorLabel.text = "Hello Egret";

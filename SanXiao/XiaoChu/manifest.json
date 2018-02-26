@@ -9,7 +9,15 @@
 		"promise/bin/promise.js"
 	],
 	"game": [
+		"bin-debug/Data/Element/BaseElement.js",
 		"bin-debug/LoadingUI.js",
-		"bin-debug/Main.js"
+		"bin-debug/Main.js",
+		"bin-debug/Data/GameData.js",
+		"bin-debug/Data/LevelGameDataParse.js",
+		"bin-debug/Data/LevelRequire.js",
+		"bin-debug/Data/LinkLogic.js",
+		"bin-debug/Data/MapDataPares.js",
+		"bin-debug/Data/Element/GameElement.js",
+		"bin-debug/Data/Element/LevelRequireElement.js"
 	]
 }

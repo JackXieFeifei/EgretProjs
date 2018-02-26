@@ -88,7 +88,7 @@ class LinkLogic {
 					var arr: number[] = [];
 					for (var q = 0; q < typeNum; q++) {
 						arr.push(GameData.mapData[j-q-1][i]);
-					}
+				}
 					LinkLogic.lines.push(arr);
 				}
 				currentType = "";
@@ -98,7 +98,7 @@ class LinkLogic {
 
 		if (LinkLogic.lines.length != 0) {
 			return true;
-		}
+		}  
 		return false;
 	}
 
